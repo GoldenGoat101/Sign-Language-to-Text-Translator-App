@@ -14,6 +14,8 @@
 		68BD86F82B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD86F72B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppTests.swift */; };
 		68BD87022B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD87012B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITests.swift */; };
 		68BD87042B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD87032B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITestsLaunchTests.swift */; };
+		68BD87172B22E01A00DD970E /* ssss 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 68BD87152B22E01A00DD970E /* ssss 1.mlmodel */; };
+		68BD87182B22E01A00DD970E /* ssss 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 68BD87162B22E01A00DD970E /* ssss 2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		68BD86FD2B22DE2A00DD970E /* Sign Language to Text Translator AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sign Language to Text Translator AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BD87012B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_Language_to_Text_Translator_AppUITests.swift; sourceTree = "<group>"; };
 		68BD87032B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_Language_to_Text_Translator_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68BD87152B22E01A00DD970E /* ssss 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ssss 1.mlmodel"; path = "../../ssss 1.mlmodel"; sourceTree = "<group>"; };
+		68BD87162B22E01A00DD970E /* ssss 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ssss 2.mlmodel"; path = "../../ssss 2.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		68BD86DA2B22DE2800DD970E = {
 			isa = PBXGroup;
 			children = (
+				68BD87102B22DFA800DD970E /* models */,
 				68BD86E52B22DE2800DD970E /* Sign Language to Text Translator App */,
 				68BD86F62B22DE2A00DD970E /* Sign Language to Text Translator AppTests */,
 				68BD87002B22DE2A00DD970E /* Sign Language to Text Translator AppUITests */,
@@ -125,6 +130,15 @@
 				68BD87032B22DE2A00DD970E /* Sign_Language_to_Text_Translator_AppUITestsLaunchTests.swift */,
 			);
 			path = "Sign Language to Text Translator AppUITests";
+			sourceTree = "<group>";
+		};
+		68BD87102B22DFA800DD970E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				68BD87152B22E01A00DD970E /* ssss 1.mlmodel */,
+				68BD87162B22E01A00DD970E /* ssss 2.mlmodel */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BD87182B22E01A00DD970E /* ssss 2.mlmodel in Sources */,
 				68BD86E92B22DE2800DD970E /* ContentView.swift in Sources */,
+				68BD87172B22E01A00DD970E /* ssss 1.mlmodel in Sources */,
 				68BD86E72B22DE2800DD970E /* Sign_Language_to_Text_Translator_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
